@@ -55,6 +55,29 @@
     @apply font-fontRaleway text-[14px] max-w-[550px] my-[1rem]
             xl:text-[1rem]
   }
+
+  .card-sec3{
+    @apply z-[2] text-white bg-[#202a3c] max-w-[390px] px-[2rem] pt-[3rem] pb-[2rem] rounded-md mb-[2rem]
+            xl:mb-0
+  }
+  .profile-sec3{
+    @apply h-[2rem] w-[2rem] rounded-full
+  }
+  .cardb-sec3{
+    @apply  absolute left-[50%] -translate-x-1/2 bottom-0 translate-y-1/2 bg-[#181f2a] shadow-md shadow-[#0b1523] text-center py-[2rem] w-[90%]
+            xl:w-[60%]
+  }
+  .cardb-h-sec3{
+    @apply text-white text-[1.2rem] xl:text-[2.1rem] font-fontRaleway font-bold
+  }
+  .cardb-p-sec3{
+    @apply text-white px-[1rem]  my-[1rem]
+            xl:px-[4rem]
+  }
+  .cardb-input-sec3{
+    @apply text-[#339ecc] text-start rounded-full mt-[1rem] mb-[2rem] pl-[3rem]  py-[0.8rem] w-[280px]
+            xl:mt-0 xl:mb-0 xl:mr-[2rem] xl:pr-[9rem] xl:w-auto
+  }
 }
 
 
@@ -63,6 +86,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   
 }
 
@@ -76,6 +100,8 @@
   --c-Blue-inside-call-to-action-gradient: #339ecc;
   --c-Light-Red-error: #ff4242;
 
+  --c-White: #ffffff;
+
   --ff-Raleway:'Raleway', sans-serif;
   --ff-OpenSans:'Open Sans', sans-serif;
 
@@ -85,4 +111,13 @@
   --fw-m:700;
 }
 
-
+.card-sec3:first-child{
+  position: relative;
+}
+.card-sec3:first-child::before{
+  position: absolute;
+  content: url('./images/bg-quotes.png');
+  top: -2.3rem;
+  left: -0.5rem;
+  z-index: -1;
+}
