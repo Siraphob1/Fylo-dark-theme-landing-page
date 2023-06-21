@@ -6,7 +6,7 @@ import Sec3Component from "./Sec3Component"
 
 const MainComponent = () => {
   return (
-    <main>
+    <main className="bgc-main">
         <Sec1Component/>
         <Sec2Component/>
         <Sec3Component/>
