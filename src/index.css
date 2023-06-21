@@ -33,6 +33,19 @@
     @apply text-white font-bold rounded-full bg-gradient-to-r from-[#65e2d9] to-[#339ecc] px-[5rem] py-[1rem]
   }
   
+  .sec-sec1{
+    @apply flex flex-col items-center xl:flex-row xl:justify-between
+  }
+  .card-sec1{
+    @apply text-white max-w-[400px] flex flex-col items-center text-center my-[5rem]
+  }
+  .h-card-sec1{
+    @apply font-fontRaleway font-bold text-[1.4rem] mt-[2rem] mb-[1rem]
+  }
+  .p-card-sec1{
+    @apply font-fontRaleway opacity-70 px-[1rem]
+            xl:px-0
+  }
 }
 
 
@@ -62,3 +75,5 @@
   --fw-s:400;
   --fw-m:700;
 }
+
+
