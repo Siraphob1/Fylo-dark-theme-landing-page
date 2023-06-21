@@ -46,6 +46,15 @@
     @apply font-fontRaleway opacity-70 px-[1rem]
             xl:px-0
   }
+
+  .h-sec2{
+    @apply font-fontRaleway font-bold text-[1.1rem]  max-w-[400px] leading-[3.5rem] 
+            xl:text-[2.6rem] 
+  }
+  .p-sec2{
+    @apply font-fontRaleway text-[14px] max-w-[550px] my-[1rem]
+            xl:text-[1rem]
+  }
 }
 
 
