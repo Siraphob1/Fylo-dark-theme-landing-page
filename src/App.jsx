@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-    <NavComponent/>
-    <HeaderComponent/>
-    <MainComponent/>
-    <FooterComponent/>
+      <NavComponent/>
+      <HeaderComponent/>
+      <MainComponent/>
+      <FooterComponent/>
     </>
   )
 }
