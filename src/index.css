@@ -1,9 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Commissioner:wght@400;500;700&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=League+Spartan&family=Montserrat:wght@100&family=Nunito:wght@200&family=Open+Sans:wght@400;700&family=Outfit&family=Overpass:wght@100;300;600&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+@layer components{
+  .default{
+    @apply font-fontRaleway
+  }
+}
+
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+:root{
+  --c-Dark-Blue--intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+  --c-Dark-Blue-main-background: hsl(218, 28%, 13%);
+  --c-Dark-Blue-footer-background: hsl(216, 53%, 9%);
+  --c-Dark-Blue-testimonials-background: hsl(219, 30%, 18%);
+
+  --c-Cyan-inside-call-to-action-gradient: hsl(176, 68%, 64%);
+  --c-Blue-inside-call-to-action-gradient: hsl(198, 60%, 50%);
+  --c-Light-Red-error: hsl(0, 100%, 63%);
+
+  --ff-Raleway:'Raleway', sans-serif;
+  --ff-OpenSans:'Open Sans', sans-serif;
+
+  --fs:14px;
+
+  --fw-s:400;
+  --fw-m:700;
 }
