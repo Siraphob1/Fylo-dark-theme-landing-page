@@ -64,7 +64,7 @@
     @apply h-[2rem] w-[2rem] rounded-full
   }
   .cardb-sec3{
-    @apply  absolute left-[50%] -translate-x-1/2 bottom-0 translate-y-1/2 bg-[#181f2a] shadow-md shadow-[#0b1523] text-center py-[2rem] w-[90%]
+    @apply  absolute left-[50%] -translate-x-1/2 bottom-0 translate-y-1/2 bg-[#181f2a] shadow-lg shadow-[#0b1523] text-center py-[2rem] w-[90%] rounded-md
             xl:w-[60%]
   }
   .cardb-h-sec3{
@@ -77,6 +77,24 @@
   .cardb-input-sec3{
     @apply text-[#339ecc] text-start rounded-full mt-[1rem] mb-[2rem] pl-[3rem]  py-[0.8rem] w-[280px]
             xl:mt-0 xl:mb-0 xl:mr-[2rem] xl:pr-[9rem] xl:w-auto
+  }
+
+  .div-img-footer{
+    @apply mr-[1rem] mt-[0.5rem]
+  }
+
+  .p-footer{
+    @apply text-white max-w-[300px]  font-fontOpenSans mb-[0.7rem]
+              xl:max-w-[330px]
+  }
+  .li-a-footer{
+    @apply mb-[0.7rem]
+  }
+  .a-footer{
+    @apply text-white font-fontOpenSans 
+  }
+  .i-footer{
+    @apply text-white ml-[1rem] border border-white rounded-full p-[0.5rem]
   }
 }
 
