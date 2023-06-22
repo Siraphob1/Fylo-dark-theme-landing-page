@@ -5,8 +5,8 @@ import iemail from "../images/icon-email.svg";
 import { FaFacebookF,FaTwitter,FaInstagram } from "react-icons/fa";
 const FooterComponent = () => {
   return (
-    <footer className="bg-[#0b1523] pt-[14rem] pb-[3rem] pl-[2rem]
-                        xl:px-[6rem] xl:pt-[10rem]">
+    <footer className="bg-[#0b1523] pt-[16rem] pb-[3rem] pl-[1rem]
+                        xl:px-[6rem] xl:pt-[12rem]">
       <a href="#">
         <img src={logo} alt="logo" />
       </a>
@@ -14,7 +14,7 @@ const FooterComponent = () => {
       <div className="flex flex-col mt-[2rem]
                       xl:flex-row xl:justify-between xl:items-start">
         <section className="flex ">
-            <div className="div-img-footer"><img src={ilocation} alt="ilocation" /></div>
+            <div className="div-img-footer "><img src={ilocation} alt="ilocation" /></div>
             <p className="p-footer"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                 dolore magna aliqua
             </p>
