@@ -19,8 +19,8 @@ const Sec2Component = () => {
             <p className="p-sec2"> Securely share files and folders with friends, family and colleagues for live collaboration. No email 
                 attachments required.
             </p>
-            <a href="#">
-              <span className="border-b pb-[0.5rem] opacity-80">See how Fylo works
+            <a href="#" className=" brightness-75 active:brightness-100">
+              <span className="border-b pb-[0.5rem]">See how Fylo works
               <img src={iarrow} alt="iarrow" className=" inline-block pl-[0.5rem]" />
               </span>
               
