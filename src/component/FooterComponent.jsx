@@ -7,9 +7,11 @@ const FooterComponent = () => {
   return (
     <footer className="bg-[#0b1523] pt-[16rem] pb-[3rem] pl-[1rem]
                         xl:px-[6rem] xl:pt-[12rem]">
-      <a href="#">
-        <img src={logo} alt="logo" />
-      </a>
+      
+        <a href="#" className=" inline-block ">
+          <img src={logo} alt="logo" className=" w-[140px]" />
+        </a>
+      
 
       <div className="flex flex-col mt-[2rem]
                       xl:flex-row xl:justify-between xl:items-start">
@@ -45,9 +47,7 @@ const FooterComponent = () => {
           <div className="i-footer"><FaTwitter/></div>
           <div className="i-footer"><FaInstagram/></div>
         </section>
-      </div>
-      
-      
+      </div>        
      
     </footer>
   )
